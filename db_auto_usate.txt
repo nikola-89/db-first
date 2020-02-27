@@ -1,0 +1,14 @@
+DB AUTO USATE
+
+ID Interno | INTERO | TINYINT | PRIMARY_KEY
+Marca | STRINGA | VARCHAR(12) | NOTNULL
+Modello | STRINGA | VARCHAR(20) | NOTNULL
+Alimentazione | STRINGA | VARCHAR(16) | NOTNULL
+Colore Esterno | STRINGA | VARCHAR(10) | NULL
+KM | INTERO | TINYINT | NOTNULL
+Tipo Di Cambio | STRINGA | VARCHAR(10) | NULL
+Classe Emissioni | INTERO | TINYINT | NOTNULL
+Anno Immatricolazione | YEAR | NOTNULL
+Data Ultima Revisione | DATE | NULL
+Stato Usato | INTERO | TINYINT | NOTNULL [valutazione da 1 a 5]
+Prezzo | FLOAT(5,3) --fino a 99.999 | FLOAT(6,3) -- oltre fino a 999.999 | NOTNULL
